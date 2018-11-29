@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='redisGroupMsg',
-      version='0.0.4',
+      version='0.0.5',
       description='This is a packet that broadcasts redis multiple queues',
       url='https://github.com/zhenruyan/redisGroupMsg',
       author='zhenruyan',
