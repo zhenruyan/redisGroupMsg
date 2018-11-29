@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='redisGroupMsg',
       version='0.1',
@@ -7,5 +7,21 @@ setup(name='redisGroupMsg',
       author='zhenruyan',
       author_email='baiyangwangzhan@hotmail.com',
       license='WTFPL',
-      packages=['redisGroupMsg'],
-      zip_safe=False)
+      packages=find_packages(),
+      zip_safe=False,
+      platforms=["all"],
+      long_description=open('README.md').read(),
+classifiers=[
+        'Development Status :: 0.1 - Beta',
+        'Operating System :: OS Independent',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: WTFPL License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: queue',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Software Development :: Libraries'
+    ],install_requires=[
+        'redis==3.0.1'
+    ]
+      )
