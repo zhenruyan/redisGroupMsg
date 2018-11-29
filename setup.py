@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(name='redisGroupMsg',
       version='0.1',
       description='This is a packet that broadcasts redis multiple queues',
-      url='https://www.pkold.com',
+      url='https://github.com/zhenruyan/redisGroupMsg',
       author='zhenruyan',
       author_email='baiyangwangzhan@hotmail.com',
       license='WTFPL',
