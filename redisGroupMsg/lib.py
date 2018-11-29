@@ -13,6 +13,7 @@ class redisMessage():
     def addGroup(self,group,name):
         self.r.sadd(group,name)
 
+
     def sendGroup(self,group,msg):
         args = (group, msg)
         resout = r.evalsha(self.hash, 1, *args)
