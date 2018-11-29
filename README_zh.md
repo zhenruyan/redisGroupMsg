@@ -6,6 +6,11 @@
 
 >  性能是py直接循环发送的13倍速度
 
+```shell
+pip install redisGroupMsg
+```
+
+
 ```python
 
 from redisGroupMsg import redisMessage

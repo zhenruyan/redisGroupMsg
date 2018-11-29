@@ -6,6 +6,12 @@
 
 >   Performance is 13 times faster than py direct circular transmission 
 
+
+```shell
+pip install redisGroupMsg
+```
+
+
 ```python
 
 from redisGroupMsg import redisMessage
