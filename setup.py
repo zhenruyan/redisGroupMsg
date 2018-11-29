@@ -12,14 +12,11 @@ setup(name='redisGroupMsg',
       platforms=["all"],
       long_description=open('README.md').read(),
 classifiers=[
-        'Development Status :: 1 - Beta',
         'Operating System :: OS Independent',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: WTFPL License',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: queue',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries'
     ],install_requires=[
         'redis==3.0.1'
