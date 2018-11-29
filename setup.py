@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='redisGroupMsg',
-      version='0.1',
+      version='0.0.1',
       description='This is a packet that broadcasts redis multiple queues',
       url='https://github.com/zhenruyan/redisGroupMsg',
       author='zhenruyan',
@@ -12,7 +12,7 @@ setup(name='redisGroupMsg',
       platforms=["all"],
       long_description=open('README.md').read(),
 classifiers=[
-        'Development Status :: 0.1 - Beta',
+        'Development Status :: 1 - Beta',
         'Operating System :: OS Independent',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: WTFPL License',
