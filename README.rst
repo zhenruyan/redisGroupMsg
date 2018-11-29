@@ -15,7 +15,11 @@ install ::
 
 
 
-python::
+
+push msg
+++++++++
+
+python ::
 
     from redisGroupMsg import redisMessage
 
@@ -30,3 +34,21 @@ python::
             # r.sendGroup("test",e)
             # remove queue on group
             r.removeGroup("test",e)
+
+
+
+
+
+pop msg
++++++++
+python ::
+
+    from redisGroupMsg import redisMessage
+    r = redisMessage()
+
+    if __name__ == '__main__':
+        conn = r.conn
+        msg = conn.rpop("id:1")
+        print(msg)
+
+
