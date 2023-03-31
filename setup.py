@@ -19,6 +19,6 @@ classifiers=[
         'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries'
     ],install_requires=[
-        'redis==3.0.1'
+        'redis==4.4.4'
     ]
       )
